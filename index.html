@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Travel - Beyond Ordinary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="gradient-blob blob1"></div>
+        <div class="gradient-blob blob2"></div>
+        <div class="gradient-blob blob3"></div>
+    </div>
+
+    <nav>
+        <div class="logo">NEXUS</div>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#adventures">Adventures</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto">
+            <source src="bacground homepage.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">BEYOND ORDINARY</h1>
+            <p class="hero-subtitle">Experience Travel Like Never Before • Immersive • Extraordinary • Unforgettable</p>
+            <div class="cta-group">
+                <a href="#destinations" class="btn-primary">START JOURNEY</a>
+                <a href="#contact" class="btn-secondary">GET IN TOUCH</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">WHY CHOOSE US</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">✈️</span>
+                <h3 class="feature-title">Premium Travel</h3>
+                <p class="feature-description">Experience luxury travel with exclusive access to the world's finest destinations and accommodations.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🌍</span>
+                <h3 class="feature-title">Global Network</h3>
+                <p class="feature-description">Access to 150+ countries with local expertise and authentic cultural experiences.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">💎</span>
+                <h3 class="feature-title">VIP Services</h3>
+                <p class="feature-description">24/7 concierge, priority bookings, and personalized itineraries crafted just for you.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🛡️</span>
+                <h3 class="feature-title">Safe & Secure</h3>
+                <p class="feature-description">Comprehensive travel insurance and safety protocols for worry-free adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations" id="destinations">
+        <h2 class="section-title">ADVENTURE DESTINATIONS</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('New Zealand.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>  NEW ZEALAND  - <br>
+                    QUEENSTOWN
+                        </h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">Witness breathtaking fjords, crystal-clear lakes and towering mountains. Experience skydiving, bungee jumping, jet boating and glacier walks all in one place-perfect for hardcore adventure lovers.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$2,499</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('Jordan-Wadi\ Rum.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>JORDAN - <br> WADI RUM</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">Explore the Mars-like desert landscape with towering sandstone cliffs and endless red dunes. Enjoy jeep safairs, hot-air ballon rides, stargazing and nowadic camps under the Milky Way.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$1,199</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('Norway- Tromso.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>NORWAY - <br> TROMS0</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description"> Chase the Arctic magic with snow-covered valleys, polar nights and mesmerizing Northern Lights. Try dog sledding, ice trekking and snowmobile adventures in the untouched wilderness.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$3,199</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('philippines.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>PHILIPPINES - <br> EI NIDO</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">Discover hidden lagoons, secret beaches and dramatic limestone cliffs. Dive into crystal waters, Kayak through caves and explore some of the world's clearest oceans.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$1,199</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('Indonesia-Bali.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>INDONESIA - <br> BALI</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description"> Walk through lush jungles, volcanic mountains and secret waterfalls. Bali offens white-water rafting, hiking, canyoning and spiritual jungle retreats-perfect for nature lovers.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$1,199</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('Nepal-pokhara & Annapurna.jpg') center/cover;">
+                    <div class="card-overlay">
+                        <h3>NEPAL - <br> POKHARA & ANNAPURNA</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">Surround yourself with the mighty Himalayas while experiencing paragliding, mountain treks, lake adentures and serene Buddhist landscapes. A budget-friendly paradise for thrill seekers.</p>
+                    <div class="card-price">
+                        <span class="price-tag">$899</span>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="adventures" id="adventures">
+        <h2 class="section-title">ADVENTURE PACKAGES</h2>
+        <div class="budget-tabs">
+            <input type="radio" name="budget" id="budget-low" class="budget-radio" checked>
+            <label for="budget-low" class="budget-tab">Budget Friendly</label>
+            
+            <input type="radio" name="budget" id="budget-mid" class="budget-radio">
+            <label for="budget-mid" class="budget-tab">Mid Range</label>
+            
+            <input type="radio" name="budget" id="budget-high" class="budget-radio">
+            <label for="budget-high" class="budget-tab">Luxury</label>
+        </div>
+
+        <div class="adventure-content">
+            <div id="content-low" class="budget-content">
+                <div class="adventures-grid">
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🏕️</div>
+                        <h3 class="adventure-title">CAMPING TREK</h3>
+                        <div class="adventure-price">$599</div>
+                        <p class="adventure-desc">5 Days mountain camping with trekking, campfire nights, and stunning sunrise views.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Camping Equipment</li>
+                            <li>✓ Guided Trek</li>
+                            <li>✓ Meals Included</li>
+                            <li>✓ Group of 8-12</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🚴</div>
+                        <h3 class="adventure-title">BIKE ADVENTURE</h3>
+                        <div class="adventure-price">$799</div>
+                        <p class="adventure-desc">7 Days cycling through scenic routes, local villages, and breathtaking landscapes.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Premium Bike</li>
+                            <li>✓ Support Vehicle</li>
+                            <li>✓ Accommodation</li>
+                            <li>✓ Local Guide</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🏄</div>
+                        <h3 class="adventure-title">BEACH GETAWAY</h3>
+                        <div class="adventure-price">$899</div>
+                        <p class="adventure-desc">6 Days surfing, snorkeling, and beach activities in tropical paradise.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Surf Lessons</li>
+                            <li>✓ Beach Resort</li>
+                            <li>✓ Water Sports</li>
+                            <li>✓ All Meals</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-mid" class="budget-content">
+                <div class="adventures-grid">
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🏔️</div>
+                        <h3 class="adventure-title">HIMALAYAN TREK</h3>
+                        <div class="adventure-price">$1,899</div>
+                        <p class="adventure-desc">10 Days trekking through Himalayan valleys with expert guides and comfortable stays.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Expert Guide</li>
+                            <li>✓ Lodge Stays</li>
+                            <li>✓ All Equipment</li>
+                            <li>✓ Porter Service</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🛶</div>
+                        <h3 class="adventure-title">RIVER RAFTING</h3>
+                        <div class="adventure-price">$1,599</div>
+                        <p class="adventure-desc">8 Days white water rafting expedition with riverside camping and adventures.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Professional Rafting</li>
+                            <li>✓ Safety Equipment</li>
+                            <li>✓ Riverside Camps</li>
+                            <li>✓ Photo Package</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🦘</div>
+                        <h3 class="adventure-title">SAFARI EXPEDITION</h3>
+                        <div class="adventure-price">$2,299</div>
+                        <p class="adventure-desc">9 Days wildlife safari with jeep tours, nature walks, and luxury tented camps.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Game Drives</li>
+                            <li>✓ Luxury Tents</li>
+                            <li>✓ Wildlife Guide</li>
+                            <li>✓ Photography Tours</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-high" class="budget-content">
+                <div class="adventures-grid">
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🏂</div>
+                        <h3 class="adventure-title">ALPINE LUXURY</h3>
+                        <div class="adventure-price">$4,999</div>
+                        <p class="adventure-desc">12 Days skiing in Swiss Alps with 5-star chalets, private instructors, and spa.</p>
+                        <ul class="adventure-features">
+                            <li>✓ 5-Star Chalet</li>
+                            <li>✓ Private Instructor</li>
+                            <li>✓ Spa & Wellness</li>
+                            <li>✓ Gourmet Dining</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🚁</div>
+                        <h3 class="adventure-title">HELICOPTER TOUR</h3>
+                        <div class="adventure-price">$5,599</div>
+                        <p class="adventure-desc">7 Days helicopter tours to remote locations with luxury lodges and exclusive access.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Private Helicopter</li>
+                            <li>✓ Luxury Lodges</li>
+                            <li>✓ Exclusive Locations</li>
+                            <li>✓ Chef Service</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+
+                    <div class="adventure-card">
+                        <div class="adventure-icon">🛥️</div>
+                        <h3 class="adventure-title">YACHT ADVENTURE</h3>
+                        <div class="adventure-price">$6,999</div>
+                        <p class="adventure-desc">14 Days luxury yacht sailing through exotic islands with private crew and chef.</p>
+                        <ul class="adventure-features">
+                            <li>✓ Private Yacht</li>
+                            <li>✓ Professional Crew</li>
+                            <li>✓ Gourmet Chef</li>
+                            <li>✓ Water Toys</li>
+                        </ul>
+                        <a href="#contact" class="adventure-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <h2 class="section-title">TRIP CALCULATOR</h2>
+        <div class="calculator-container">
+            <form class="calc-form">
+                <div class="calc-group">
+                    <label class="calc-label">Destination</label>
+                    <select class="calc-select" required>
+                        <option value="">Select Destination</option>
+                        <option value="3499">Iceland - $3,499</option>
+                        <option value="2799">Santorini - $2,799</option>
+                        <option value="3299">Kyoto - $3,299</option>
+                        <option value="4199">Dubai - $4,199</option>
+                        <option value="5699">Bora Bora - $5,699</option>
+                        <option value="3899">Patagonia - $3,899</option>
+                    </select>
+                </div>
+
+                <div class="calc-group">
+                    <label class="calc-label">Number of Travelers</label>
+                    <input type="number" class="calc-input" min="1" max="20" value="2" required>
+                </div>
+
+                <div class="calc-group">
+                    <label class="calc-label">Number of Days</label>
+                    <input type="number" class="calc-input" min="1" max="30" value="7" required>
+                </div>
+
+                <div class="calc-group">
+                    <label class="calc-label">Accommodation Type</label>
+                    <select class="calc-select" required>
+                        <option value="1">Standard (+0%)</option>
+                        <option value="1.3">Deluxe (+30%)</option>
+                        <option value="1.6">Luxury (+60%)</option>
+                        <option value="2">Ultra Luxury (+100%)</option>
+                    </select>
+                </div>
+
+                <div class="calc-group">
+                    <label class="calc-label">Add Travel Insurance?</label>
+                    <select class="calc-select" required>
+                        <option value="0">No Insurance</option>
+                        <option value="299">Basic - $299/person</option>
+                        <option value="499">Premium - $499/person</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="calc-btn">Calculate Total Cost</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">ABOUT NEXUS TRAVEL</h2>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-image">
+                        <div class="about-img-box">
+                            <span class="about-emoji">🌍</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3 class="about-subtitle">Redefining Travel Excellence Since 2010</h3>
+                        <p class="about-description">
+                            At Nexus Travel, we don't just plan trips – we craft unforgettable journeys that transform the way you see the world. With over a decade of expertise in luxury and adventure travel, we've helped thousands of explorers discover hidden gems, experience authentic cultures, and create memories that last a lifetime.
+                        </p>
+                        <p class="about-description">
+                            Our team of passionate travel experts curates every detail, from hand-picked destinations to exclusive experiences you won't find anywhere else. We believe travel should be extraordinary, seamless, and perfectly tailored to your dreams.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15K+</div>
+                        <div class="stat-label">Happy Travelers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+
+                <div class="about-values">
+                    <div class="value-item">
+                        <div class="value-icon">🎯</div>
+                        <h4 class="value-title">Our Mission</h4>
+                        <p class="value-text">To inspire wanderlust and make extraordinary travel accessible to everyone, one adventure at a time.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">💫</div>
+                        <h4 class="value-title">Our Vision</h4>
+                        <p class="value-text">To be the world's most trusted travel partner, creating transformative experiences across every continent.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">❤️</div>
+                        <h4 class="value-title">Our Values</h4>
+                        <p class="value-text">Authenticity, sustainability, excellence, and putting our travelers' dreams at the heart of everything we do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">LET'S CONNECT</h2>
+        <div class="contact-container">
+            <form action="#" method="post">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-input" name="firstname" required placeholder="John">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-input" name="lastname" required placeholder="Doe">
+                    </div>
+                </div>
+                <div class="form-group full">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-input" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group full">
+                    <label class="form-label">Phone Number</label>
+                    <input type="tel" class="form-input" name="phone" placeholder="+1 234 567 8900">
+                </div>
+                <div class="form-group full">
+                    <label class="form-label">Dream Destination</label>
+                    <input type="text" class="form-input" name="destination" placeholder="Where would you like to go?">
+                </div>
+                <div class="form-group full">
+                    <label class="form-label">Your Message</label>
+                    <textarea class="form-textarea" name="message" required placeholder="Tell us about your dream journey..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">NEXUS</div>
+                <p class="footer-description">
+                    Redefining travel excellence since 2010. Your gateway to extraordinary adventures and unforgettable experiences around the world.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">📘</a>
+                    <a href="#" class="social-icon">📸</a>
+                    <a href="#" class="social-icon">🐦</a>
+                    <a href="#" class="social-icon">▶️</a>
+                    <a href="#" class="social-icon">💼</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#adventures">Adventures</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#adventures">Adventure Tours</a></li>
+                    <li><a href="#destinations">Luxury Travel</a></li>
+                    <li><a href="#calculator">Trip Planning</a></li>
+                    <li><a href="#contact">Custom Packages</a></li>
+                    <li><a href="#features">Travel Insurance</a></li>
+                    <li><a href="#features">24/7 Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="footer-contact-item">
+                    <span>📍</span>
+                    <span>123 Travel Street, Adventure City, AC 12345</span>
+                </div>
+                <div class="footer-contact-item">
+                    <span>📧</span>
+                    <span>hello@nexustravel.com</span>
+                </div>
+                <div class="footer-contact-item">
+                    <span>📞</span>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="footer-contact-item">
+                    <span>⏰</span>
+                    <span>24/7 Support Available</span>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p class="footer-description">Subscribe to get exclusive travel deals and destination guides.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p class="copyright">© 2024 NEXUS TRAVEL. All Rights Reserved. Crafted with ❤️ for Travelers</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
